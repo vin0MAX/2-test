@@ -1,84 +1,29 @@
-.title{
-    font-size: 50px;
-
+body{
+    font-family: 'Roboto', sans-serif;
 }
-.title{
-    color: brown;
-}
-.title{
-    color: blue;
-}
-.box{
-    background-color: aquamarine;
-    color: white;
+p{
+    font-weight: 700;
+    font-style: oblique;
     font-size: 30px;
-    padding: 2px;
-    border: 2px solid black ;
-
+    line-height: 120%;
+    text-align: center;
+    text-transform: capitalize ;
+    text-indent: 42px;
+    letter-spacing: 1px;
+}
+h1{
+    text-shadow: 5px 5px 20px blueviolet,10px 10px 60px red;
 }
 .text{
-    background-color: aqua;
-}
-a{
-    color: black;
     font-size: 30px;
-    margin-top: 50px;
-    background-color: blue;
-    display: block;
-    padding: 15px 30px;
-    width: 90px;
-    text-align: center;
-    border: 2px solid rgb(139, 58, 214);
-    border-radius: 50px;
-    text-decoration: none;
+    font-weight: 700;
 }
-.main-link:hover{
-    background-color: black;
-    color: aqua;
-    border: 2px solid cornflowerblue;
+.text::first-letter{
+    font-size: 50px;
+    font-style: italic;
+    color: fuchsia;
 }
-.link:focus{
-    background-color: blueviolet;
-    color: aqua;
-    border: 2px solid cornflowerblue;
-}
-
-
-.list{
-    list-style: none;
-    display: flex;
-}
-.list-item{
-    border: 1px solid;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- /* .list-item:first-child{
-    background-color: orange;
-}
-.list-item:last-child{
-    background-color: blue;
-}
-.list-item:nth-child(4){
-    background-color: aquamarine;
-} 
-.list-item:nth-child(3n){
-    background-color: blueviolet;
-} */
-/* .list-item:nth-child(odd){
-    background-color:orangered ;
-}
-.list-item:nth-child(even){
-    background-color: brown;
-} */
-.list-item:nth-child(2n){
-    background-color: brown;
-}
-.list-item:nth-child(){
-    background-color: blue;
+.text::selection{
+    background-color: coral;
+    color: red;
 }
