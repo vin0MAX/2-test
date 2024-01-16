@@ -1,39 +1,10 @@
-body{
-    background-color: aquamarine;
-    box-sizing: border-box;
+.container{
+    width: 600px;
     padding: 0 15px;
+    margin: 0 auto;
+    border: 3px solid red;
 }
-a{
-    color: blueviolet;
-    display: block;
-    
-}
-h1{
-    font-size: 30px;
-    color: blue;
-    text-align: center;
-    border: 5px;
-    padding: 5px;
-    margin: 30px;
-}
-.wrap{
-    border: 3px solid black;
-    background-color: yellow;
-    padding: 60px 20px 10px 100px;
-    margin: 30px 50px;
-}
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: firebrick;
-}
-.wraper{
-    width: 150px;
-    height: 150px;
-    background-color: yellowgreen;
-    border: 10px solid blueviolet;
-    border-radius: 40px;
-    /* border-bottom: 5px solid blue;
-    border-left: 10px solid blue; */
-
+.header{
+    padding: 15px;
+    background-color: aqua;
 }
