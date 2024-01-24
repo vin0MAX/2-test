@@ -8,3 +8,29 @@
     padding: 15px;
     background-color: aqua;
 }
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.item{
+    width: 100px;
+    list-style: none;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid;
+}
+.list{
+    display: flex;
+    background-color: blueviolet;
+    height: 104px;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction:column-reverse;
+    justify-content: space-evenly;
+    align-items: ;
+    flex-wrap:wrap ;
+    
+
+}
