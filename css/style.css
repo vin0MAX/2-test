@@ -1,36 +1,88 @@
-.container{
+/* .container{
     width: 600px;
     padding: 0 15px;
     margin: 0 auto;
-    border: 3px solid red;
 }
-.header{
-    padding: 15px;
+.item:nth-child(7){
+    background-color: aquamarine;
+    order: 1;
+}
+.item:nth-child(5){
+    background-color: aquamarine;
+    order: -1;
+}
+.item:nth-child(3){
+    background-color: aquamarine;
+    order: 1;
+}
+.item:nth-child(3){
+    background-color: aquamarine;
+    order: 1;
+}
+.text{
+    font-size: 16px;
+    color: #212121;
+}
+text::selection{
+    color: red;
     background-color: aqua;
 }
-ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+.text::first-letter{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
 }
+.text::first-line{
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text::before{
+    content: '';
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    display: block;
+}
+.text::after{
+    content: '';
+
+    width: 100%;
+    display: block;
+    background-color: blueviolet;
+}
+.wrap{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid red;
+    background-size: 100px;
+    background-image: url("/img/fon.png");
+    background-repeat:no-repeat;
+    background-position: left bottom;
+    background-color: antiquewhite;
+} */
 .item{
-    width: 100px;
-    list-style: none;
-    height: 100px;
-    background-color: aquamarine;
-    border: 1px solid;
+    border: 2px solid chocolate;
+    width: 400px;
+    padding: 20px;
+
 }
 .list{
-    display: flex;
     background-color: blueviolet;
-    height: 104px;
-    width: 600px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    flex-direction:column-reverse;
-    justify-content: space-evenly;
-    align-items: ;
-    flex-wrap:wrap ;
-    
+    display: flex;
+    justify-content: center;
+    width: 1260px;
+}
+.item::after{
+    content: '';
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-image: url("/img/fon.png");
+    background-size:100px;
+    background-repeat: no-repeat;
+}
+p::selection{
+    background-color: aqua;
 
 }
